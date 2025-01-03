@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+.container {
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    height: 70px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 70px;
+}
+
+header section.logo span.blue-dot{
+    background-color:blue;
+    font-size:27px;
+    width: 10px;
+    height: 10px;
+    display:inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+section.hero img {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/Hero_Large_Desktop.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 26px;
+}
+
+element.style{
+    height: 60px;
+}
+
+header nav ul li a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
